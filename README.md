@@ -21,18 +21,18 @@ yarn preview
 ## Технологии
 
 - **Vue 3** (Composition API) + **TypeScript** + **Vite**
-- **Monaco Editor** — редактор кода с подсветкой YAML/JSON и маркерами ошибок
-- **Swagger UI** (swagger-ui-dist) — превью спецификации
-- **splitpanes** — регулируемые панели (редактор | превью)
-- **yaml** — парсинг и конвертация YAML ⇄ JSON
-- **Font Awesome** — иконки в тулбаре
+- **Monaco Editor** - редактор кода с подсветкой YAML/JSON и маркерами ошибок
+- **Swagger UI** (swagger-ui-dist) - превью спецификации
+- **splitpanes** - регулируемые панели (редактор | превью)
+- **yaml** - парсинг и конвертация YAML ⇄ JSON
+- **Font Awesome** - иконки в тулбаре
 
 ## Структура
 
-- `src/components/` — Toolbar, SplitPane, Editor (Monaco), Preview (Swagger UI)
-- `src/composables/` — useLocalStorage, useDebounce, useOpenApiValidator
-- `src/utils/` — converters (YAML/JSON), validators
-- `src/constants/defaultSpec.ts` — дефолтная OpenAPI-спецификация при первом запуске
+- `src/components/` - Toolbar, SplitPane, Editor (Monaco), Preview (Swagger UI)
+- `src/composables/` - useLocalStorage, useDebounce, useOpenApiValidator
+- `src/utils/` - converters (YAML/JSON), validators
+- `src/constants/defaultSpec.ts` - дефолтная OpenAPI-спецификация при первом запуске
 
 ## Основные возможности
 
@@ -44,5 +44,5 @@ yarn preview
 - Сохранение в localStorage (текст и формат)
 - Валидация с подсветкой строки с ошибкой в редакторе и сообщением в превью
 - Debounce 300 ms для превью и валидации
-- Индикатор «Не сохранено» при расхождении с последней загруженной/сброшенной версией
+- Индикатор "Не сохранено" при расхождении с последней загруженной/сброшенной версией
 - Drag-and-drop файла на область приложения
