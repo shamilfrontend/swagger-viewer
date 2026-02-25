@@ -2,6 +2,8 @@
 
 Веб-приложение для просмотра и редактирования Swagger/OpenAPI спецификаций (YAML/JSON), аналогичное editor.swagger.io.
 
+Demo - https://shf-swagger-viewer.netlify.app/
+
 ## Запуск
 
 ```bash
