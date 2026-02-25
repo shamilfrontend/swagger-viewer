@@ -1,0 +1,48 @@
+.preview-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: #182536;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.preview-error {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+  color: var(--error-color);
+  background-color: var(--background-primary);
+}
+
+.preview-error-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.preview-error-message {
+  font-size: 14px;
+  color: var(--text-secondary);
+  max-width: 480px;
+  word-break: break-word;
+}
+
+.preview-error-line {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+#swagger-preview-container {
+  height: 100%;
+  min-height: 400px;
+}
+
+.preview-wrapper :deep(#swagger-preview-container .swagger-ui) {
+  font-family: inherit;
+}
